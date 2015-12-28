@@ -2,8 +2,6 @@
 title: Migrating from Heroku to a Hosted/Cloud instance
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/migrating-from-heroku-to-a-hosted-cloud-instance/32868](https://meta.discourse.org/t/migrating-from-heroku-to-a-hosted-cloud-instance/32868)</small>
-
 If you ever need to migrate away from Heroku to a currently supported infrastructure by discourse it can be quite troublesome. 
 
 We did the following to be able to create a backup which could thereafter be imported by discours's hosted solution. These steps can also be used if you just want to migrate to your own cloud hosted instance.
@@ -37,7 +35,7 @@ For example:
 ## Build a new discourse instance
 Create a new discourse instance by following the instructions:
 
-http://learndiscourse.org/install-cloud
+https://github.com/discourse/discourse/blob/master/docs/INSTALL-cloud.md
 
 ## Start the restore
 Assuming that you have a working discourse instance and that the versions of both Heroku and the new cloud instance are the same (discourse versions) let’s start the import.
@@ -75,7 +73,7 @@ Now you should have a file called latest.sql in you tmp folder.
 
 #### Do the restore
 Go to the following link and follow the instructions under the **Restore** header.
-http://learndiscourse.org/advanced-manual-method-of-manually-creating-and-restoring-discourse-backups
+https://meta.discourse.org/t/advanced-manual-method-of-manually-creating-and-restoring-discourse-backups/18273
 
 #### Rebuild container
 Discourse relays heavily on caching. This means we need to rebuild the container after the DB is restored. Outside your container in the root of your vps do:
@@ -97,3 +95,5 @@ There is a good chance that you set the force_hostname value to make sure all li
     
 
 Now you should be good to go! Create backups to be imported later or just let it run like this.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/migrating-from-heroku-to-a-hosted-cloud-instance/32868](https://meta.discourse.org/t/migrating-from-heroku-to-a-hosted-cloud-instance/32868)</small>

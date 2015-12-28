@@ -3,8 +3,6 @@ title: Generating lots of Invite Links
 weight: 320
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/generating-lots-of-invite-links/17563](https://meta.discourse.org/t/generating-lots-of-invite-links/17563)</small>
-
 So you want to generate multiple Invite Links? Great! Let's get started!
 
 ## Clone Discourse API Gem
@@ -93,3 +91,5 @@ That's it, now you will see copyable invite link:
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/3X/7/d/7d1d54bae9e9c9b2cdc9714b3381603cc0ad352e.png" width="690" height="256"> 
 
 Copy and paste away! :link:
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/generating-lots-of-invite-links/17563](https://meta.discourse.org/t/generating-lots-of-invite-links/17563)</small>

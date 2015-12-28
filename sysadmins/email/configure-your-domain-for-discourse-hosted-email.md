@@ -2,8 +2,6 @@
 title: Configure your domain for Discourse hosted email
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/configure-your-domain-for-discourse-hosted-email/14177](https://meta.discourse.org/t/configure-your-domain-for-discourse-hosted-email/14177)</small>
-
 Here's how you configure your domain to properly send email when you're hosted here on the www.discourse.org servers. Lucky you!
 
 Both of these changes must take effect on *your* domain name. So if your Discourse instance is at  **community.mydomain.com**, add these settings at your DNS registrar for **mydomain.com**.
@@ -33,3 +31,5 @@ The two new TXT records in your DNS, once entered, should look something like th
 Once this is done make sure you set `notification email` in your site settings to an email address from your domain.
 
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/3X/5/8/5868918eaa5d805abb54a3e3c5b8965aabb6c992.png" width="690" height="214">
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/configure-your-domain-for-discourse-hosted-email/14177](https://meta.discourse.org/t/configure-your-domain-for-discourse-hosted-email/14177)</small>

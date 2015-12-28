@@ -2,8 +2,6 @@
 title: 'What is "Infinite Scrolling"?'
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/what-is-infinite-scrolling/30804](https://meta.discourse.org/t/what-is-infinite-scrolling/30804)</small>
-
 "Infinite Scrolling" is a term for what is happening if you're scrolling through a page filled with content and - as or *before* you reach the bottom - more content is loaded automatically
 
 http://learndiscourse.org/public/resources/infinite-scrolling.mp4
@@ -23,3 +21,5 @@ Discourse attempts to utilise infinite scrolling in a way that solely adds to th
 
 
   [1]: https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/what-is-infinite-scrolling/30804](https://meta.discourse.org/t/what-is-infinite-scrolling/30804)</small>

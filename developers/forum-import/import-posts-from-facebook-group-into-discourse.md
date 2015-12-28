@@ -3,8 +3,6 @@ title: Import posts from Facebook group into Discourse
 weight: 320
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/import-posts-from-facebook-group-into-discourse/6089](https://meta.discourse.org/t/import-posts-from-facebook-group-into-discourse/6089)</small>
-
 It's a rake task and some config is needed. All is explained in the file itself.
 
 I need testers. I tested this script on a group with 15 members, 250 posts and 2700 comments. That went well. Now testing on a group with 6000 members and I don't know how many posts. :)
@@ -23,3 +21,5 @@ Importing posts from users from a Facebook group into your Discourse install mig
 
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/1X/19eb92d9112447cd1c5424b3118f9f4b014617f0.png" width="690" height="175">
 
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/import-posts-from-facebook-group-into-discourse/6089](https://meta.discourse.org/t/import-posts-from-facebook-group-into-discourse/6089)</small>

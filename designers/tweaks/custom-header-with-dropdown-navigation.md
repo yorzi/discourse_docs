@@ -2,8 +2,6 @@
 title: Custom header with dropdown navigation
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/custom-header-with-dropdown-navigation/33451](https://meta.discourse.org/t/custom-header-with-dropdown-navigation/33451)</small>
-
 I recently made a dropdown navigation menu for [Envato's new forums][1], so I'll share some code to implement something similar on your own site.
 
 ----------
@@ -175,3 +173,5 @@ $(function() {
 Check the "enabled" checkbox and Save it. View the site in another tab to see it in action!
 
   [1]: https://forums.envato.com
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/custom-header-with-dropdown-navigation/33451](https://meta.discourse.org/t/custom-header-with-dropdown-navigation/33451)</small>

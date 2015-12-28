@@ -3,8 +3,6 @@ title: Redirecting old forum URLs to new Discourse URLs
 weight: 260
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/redirecting-old-forum-urls-to-new-discourse-urls/20930](https://meta.discourse.org/t/redirecting-old-forum-urls-to-new-discourse-urls/20930)</small>
-
 If you've moved from other forum software to Discourse using [one of our import scripts](https://github.com/discourse/discourse/tree/master/script/import_scripts), then you probably want all your hard-earned Google search results to continue pointing to the same content. Discourse has a built-in way to handle this for you as an alternative to writing nginx rules, using the **permalinks lookup table**.
 
 The permalinks table allows you to set two things: a url to match, and what that url should show. There are a few options for defining where the url should redirect to. Set one of these:
@@ -30,3 +28,5 @@ If you want some urls to redirect away from Discourse, you can do so by setting 
 ```
 Permalink.create(url: '/discussion/12345', external_url: 'http://archived.example.com/discussion/12345')
 ```
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/redirecting-old-forum-urls-to-new-discourse-urls/20930](https://meta.discourse.org/t/redirecting-old-forum-urls-to-new-discourse-urls/20930)</small>

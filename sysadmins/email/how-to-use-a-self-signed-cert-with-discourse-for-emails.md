@@ -2,8 +2,6 @@
 title: How to use a self-signed cert with Discourse for emails
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-use-a-self-signed-cert-with-discourse-for-emails/32042](https://meta.discourse.org/t/how-to-use-a-self-signed-cert-with-discourse-for-emails/32042)</small>
-
 Using a self-signed certificate with your SMTP and POP mail in Discourse is easy once you know how - here's how!
 
 *There is a condition, and that is that your hostname (main domain for server - usually the domain used for your name servers) allows your other domains to check email through it (usually via mail.domain.com). Most hosting panels allow this.*
@@ -45,3 +43,5 @@ If you need to trouble shoot:
 Then `cd /etc/ssl/certs` and make sure your crt is there.
 
 *Thanks to @riking for all his help in this :)*
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-use-a-self-signed-cert-with-discourse-for-emails/32042](https://meta.discourse.org/t/how-to-use-a-self-signed-cert-with-discourse-for-emails/32042)</small>

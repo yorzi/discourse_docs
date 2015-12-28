@@ -3,8 +3,6 @@ title: Official Single-Sign-On for Discourse
 weight: 90
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/official-single-sign-on-for-discourse/13045](https://meta.discourse.org/t/official-single-sign-on-for-discourse/13045)</small>
-
 Discourse now ships with official hooks to perform auth offsite. 
 
 ### The Problem
@@ -41,6 +39,7 @@ run:
 ./launcher enter app
 rails c
 irb > SiteSetting.enable_sso = false
+irb > SiteSetting.enable_local_logins = true
 irb > exit
 exit
 ```
@@ -72,7 +71,7 @@ The endpoint being called must
 5. Calculate a HMAC-SHA256 hash of the payload using sso_secret as the key and Base64 encoded payload as text 
 6. Redirect back to `http://discourse_site/session/sso_login?sso=payload&sig=sig`
 
-Discourse will validate that the nonce is valid (if valid it will expire it right away so it can no longer be used) it will attempt to:
+Discourse will validate that the nonce is valid, and if valid, it will expire it right away so it can not be used again. Then, it will attempt to:
 
 1. Log the user on by looking up an already associated **external_id** in the SingleSignOnRecord model
 2. Log the user on by using the email provided (updating external_id)
@@ -232,3 +231,5 @@ User profile data can be accessed using the `/users/by-external/{EXTERNAL_ID}.js
   [1]: http://en.wikipedia.org/wiki/Cryptographic_nonce
   [2]: http://en.wikipedia.org/wiki/Base64
   [3]: http://en.wikipedia.org/wiki/Hash-based_message_authentication_code
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/official-single-sign-on-for-discourse/13045](https://meta.discourse.org/t/official-single-sign-on-for-discourse/13045)</small>

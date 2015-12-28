@@ -2,8 +2,6 @@
 title: Install a Plugin
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/install-a-plugin/19157](https://meta.discourse.org/t/install-a-plugin/19157)</small>
-
 So you want to install a plugin on your Discourse instance? Great, let's get started!
 
 In this tutorial, we'll install [Discourse Spoiler Alert](https://github.com/discourse/discourse-spoiler-alert) plugin.
@@ -33,3 +31,5 @@ cd /var/discourse
 ```
 
 That's it, you've successfully installed the [Discourse Spoiler Alert](https://github.com/discourse/discourse-spoiler-alert) plugin on your Discourse instance!
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/install-a-plugin/19157](https://meta.discourse.org/t/install-a-plugin/19157)</small>

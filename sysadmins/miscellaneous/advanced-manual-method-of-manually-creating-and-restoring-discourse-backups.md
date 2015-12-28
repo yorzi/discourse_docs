@@ -2,7 +2,13 @@
 title: Advanced, manual method of manually creating and restoring Discourse backups
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/advanced-manual-method-of-manually-creating-and-restoring-discourse-backups/18273](https://meta.discourse.org/t/advanced-manual-method-of-manually-creating-and-restoring-discourse-backups/18273)</small>
+As discussed [below][1], a warning for newbies: 
+
+1. this is an advanced method! there is an automated, web UI way to restore from backups at `/admin/backups` which is so much easier. 
+2. with the method below, no automatic backup is kept of the `/var/discourse/containers/app.yml` file which contains essential SMTP credentials and SSL customizations. Keep a copy of this offsite whenever you change it.
+3. If you are using digital ocean, keep frequent snapshots of your droplets - preferably before each time you run `./launcher rebuild app` or do any upgrades. Unfortunately in my case this takes an hour each time and it's a manual process - but it's totally worth it if you are not familiar with docker and want to avoid a headache later.
+
+----
 
 Continuing the discussion from [Migrate db from old Discourse to new without updating](https://meta.discourse.org/t/migrate-db-from-old-discourse-to-new-without-updating/17956/6):
 
@@ -82,3 +88,8 @@ END
 `exit`
 `exit`
 `./launcher restart app`
+
+
+  [1]: https://meta.discourse.org/t/advanced-manual-method-of-manually-creating-and-restoring-discourse-backups/18273/7?u=tobiaseigen
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/advanced-manual-method-of-manually-creating-and-restoring-discourse-backups/18273](https://meta.discourse.org/t/advanced-manual-method-of-manually-creating-and-restoring-discourse-backups/18273)</small>

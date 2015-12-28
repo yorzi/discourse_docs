@@ -2,8 +2,6 @@
 title: Configure your domain name for hosted Discourse
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/configure-your-domain-name-for-hosted-discourse/21827](https://meta.discourse.org/t/configure-your-domain-name-for-hosted-discourse/21827)</small>
-
 So you've selected a hosted Discourse plan. Lucky you!
 
 The very first step is to point your domain name `forum.example.com` to our hosting.
@@ -243,8 +241,6 @@ If you cannot find your provider or are still having trouble configuring your CN
 1.  Enter `hosted-vh1.discourse.org` into the IP Address/URL column for both @ and www as a CNAME
 1.  Click **Save Changes.**
 
-(this page was [adapted from Fastly](https://docs.fastly.com/guides/getting-started/cname-instructions-for-most-providers) with permission.)
-
 ### Google Domains
 
 
@@ -254,3 +250,20 @@ If you cannot find your provider or are still having trouble configuring your CN
 1.  In the box to the left of your domain name, enter your URL prefix (such as www).
 1.  Enter `hosted-vh1.discourse.org` in the **points to** box.
 1.  Click **Add**.
+
+
+### iwantmyname.com
+
+1.  Log in to your account at https://iwantmyname.com/signin
+1.  Go to your Domains section.
+1.  Find the "Nameservers" section and click "Manage DNS records"
+1.  In the "Hostname" box, enter your URL prefix (such as www).
+1.  Make the "Type" a `CNAME`
+1.  In the "Value" box Enter `hosted-vh1.discourse.org` 
+1.  Click **Add** and **Save DNS Settings**.
+
+---
+
+(this page was [adapted from Fastly](https://docs.fastly.com/guides/getting-started/cname-instructions-for-most-providers) with permission.)
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/configure-your-domain-name-for-hosted-discourse/21827](https://meta.discourse.org/t/configure-your-domain-name-for-hosted-discourse/21827)</small>

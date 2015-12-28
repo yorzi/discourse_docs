@@ -3,8 +3,6 @@ title: How to create an administrator account after install
 weight: 360
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-create-an-administrator-account-after-install/14046](https://meta.discourse.org/t/how-to-create-an-administrator-account-after-install/14046)</small>
-
 ### The simple way
 
 Make sure either:
@@ -40,3 +38,5 @@ Do you want to grant Admin privileges to this account? (Y/n)  Y
 
 Your account now has Admin privileges!
 ```
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-create-an-administrator-account-after-install/14046](https://meta.discourse.org/t/how-to-create-an-administrator-account-after-install/14046)</small>

@@ -2,8 +2,6 @@
 title: Advanced Setup and Administration
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/advanced-setup-and-administration/15929](https://meta.discourse.org/t/advanced-setup-and-administration/15929)</small>
-
 Here are some of the more advanced Discourse setup and administration questions we see:
 
 
@@ -194,12 +192,14 @@ docker images --no-trunc| grep none | awk '{print $3}' | xargs -r docker rmi
 
   [nginx_gist]: https://gist.github.com/trident523/ee1be110212b4a7a1291
 
-  [back_rest]: http://learndiscourse.org/move-your-discourse-instance-to-a-different-server
+  [back_rest]: https://meta.discourse.org/t/move-your-discourse-instance-to-a-different-server/15721
 
   [poll]: https://github.com/discourse/discourse/blob/master/plugins/poll/README.md
 
   [love_discourse]: https://meta.discourse.org/t/i-so-love-this-soft-thank-you/15439/2
 
-  [docker_multisite]: http://learndiscourse.org/multisite-configuration-with-docker
+  [docker_multisite]: https://meta.discourse.org/t/multisite-configuration-with-docker/14084
 
   [troubleshoot]: https://meta.discourse.org/t/advanced-troubleshooting-with-docker/15927/6
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/advanced-setup-and-administration/15929](https://meta.discourse.org/t/advanced-setup-and-administration/15929)</small>

@@ -2,8 +2,6 @@
 title: Some common badge queries idea
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/some-common-badge-queries-idea/31859](https://meta.discourse.org/t/some-common-badge-queries-idea/31859)</small>
-
 Here are some common badge queries which you can use to create your own awesome badge!
 
 - Grant a badge if user has created at least one topic in the "foo" category
@@ -82,3 +80,5 @@ ORDER BY created_at ASC LIMIT 100
 ```
 
 I have wiki'd this post, so feel free to add more awesome badge queries here!
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/some-common-badge-queries-idea/31859](https://meta.discourse.org/t/some-common-badge-queries-idea/31859)</small>

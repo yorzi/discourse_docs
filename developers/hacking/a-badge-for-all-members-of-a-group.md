@@ -3,8 +3,6 @@ title: A badge for all members of a group
 weight: 280
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/a-badge-for-all-members-of-a-group/18147](https://meta.discourse.org/t/a-badge-for-all-members-of-a-group/18147)</small>
-
 I just created a badge for all the awesome [plugin authors][1]. 
 
 Creating a badge targeting a group is quite easy, just type this into the SQL box:
@@ -20,3 +18,5 @@ where group_id = (
 I will add a trigger for this at some point so granting is faster, in the mean time just go to /sidekiq/scheduler and kick off the badge job to rush it. 
 
   [1]: /badges
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/a-badge-for-all-members-of-a-group/18147](https://meta.discourse.org/t/a-badge-for-all-members-of-a-group/18147)</small>

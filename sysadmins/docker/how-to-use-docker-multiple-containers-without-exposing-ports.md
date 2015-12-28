@@ -2,8 +2,6 @@
 title: How to use Docker multiple containers without exposing ports
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-use-docker-multiple-containers-without-exposing-ports/22283](https://meta.discourse.org/t/how-to-use-docker-multiple-containers-without-exposing-ports/22283)</small>
-
 Hello everyone!
 
 If you don't want to mess with the firewall rules and security of your server, you can configure your Docker multiple container setup with just links and **no** exposed ports!
@@ -45,3 +43,5 @@ So now the containers can communicate locally! Also:
 
 
   [1]: https://docs.docker.com/userguide/dockerlinks/#docker-container-linking
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-use-docker-multiple-containers-without-exposing-ports/22283](https://meta.discourse.org/t/how-to-use-docker-multiple-containers-without-exposing-ports/22283)</small>

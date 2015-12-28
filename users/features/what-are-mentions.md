@@ -2,8 +2,6 @@
 title: What are Mentions?
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/what-are-mentions/32788](https://meta.discourse.org/t/what-are-mentions/32788)</small>
-
 If you want to get a specific user's attention, the best way to do that is usually with a "mention", a concept popularised by social media sites like Twitter.
 
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/3X/2/e/2ec1947827130067af69c3b486cef5ed0d7dc996.png" width="690" height="85"> 
@@ -22,3 +20,5 @@ Typing a part of a user's full name will also work.
 
   [1]: https://meta.discourse.org/t/user-invitation-poking-a-user-to-a-topic-is-now-live/27180?u=erlend_sh
   [2]: https://meta.discourse.org/t/give-groups-full-names-and-allow-mentions/11168
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/what-are-mentions/32788](https://meta.discourse.org/t/what-are-mentions/32788)</small>

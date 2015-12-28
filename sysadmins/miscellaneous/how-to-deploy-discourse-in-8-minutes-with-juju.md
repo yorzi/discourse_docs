@@ -2,8 +2,6 @@
 title: How to deploy Discourse in 8 minutes with Juju
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-deploy-discourse-in-8-minutes-with-juju/20658](https://meta.discourse.org/t/how-to-deploy-discourse-in-8-minutes-with-juju/20658)</small>
-
 I wrote a blog post about how to use [Juju](juju.ubuntu.com) to deploy Discourse:
 
 http://npf.io/2014/10/deploy-discourse-juju/
@@ -14,3 +12,5 @@ Give it a try and feel free to leave comments here or on the blog post if you ha
 
 
   [1]: https://github.com/discourse/discourse/blob/master/docs/INSTALL-digital-ocean.md
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-deploy-discourse-in-8-minutes-with-juju/20658](https://meta.discourse.org/t/how-to-deploy-discourse-in-8-minutes-with-juju/20658)</small>

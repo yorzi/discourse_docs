@@ -2,8 +2,6 @@
 title: Full site CDN acceleration for Discourse
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/full-site-cdn-acceleration-for-discourse/21467](https://meta.discourse.org/t/full-site-cdn-acceleration-for-discourse/21467)</small>
-
 [Fastly][1] , [CloudFlare][2] and a few other CDNs offer a mode where they accelerate dynamic content. 
 
 In a nutshell you point your domain IP address at the CDN and the CDN will intelligently decide how to deal with the request.
@@ -25,7 +23,7 @@ If you enable full site acceleration with a CDN it is critical you follow 3 rule
 
 2. Be extra careful with techniques that apply optimisation to the site, stuff like Rocket Loader can stop Discourse from working. Discourse is already heavily optimised, this is not needed. 
 
-To server "[long polling][6]" requests from a different domain, set the Site Setting **long polling base url** to the origin server. 
+To serve "[long polling][6]" requests from a different domain, set the Site Setting **long polling base url** to the origin server. 
 
 For example, if your site is on "http://forum.example.com" you should set up **`http://forum-direct.example.com/`** to plug into the site setting. If you don't your site will be broken. 
 
@@ -44,8 +42,10 @@ You can see most of the implementation here: https://github.com/discourse/discou
 
   [1]: http://www.fastly.com/
   [2]: https://www.cloudflare.com
-  [3]: http://learndiscourse.org/enable-a-cdn-for-your-discourse
+  [3]: https://meta.discourse.org/t/enable-a-cdn-for-your-discourse/14857
   [4]: http://www.fastly.com/products/origin-shield/
   [5]: https://www.cloudflare.com/railgun
   [6]: http://en.wikipedia.org/wiki/Comet_%28programming%29
   [7]: http://en.wikipedia.org/wiki/Cross-origin_resource_sharing
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/full-site-cdn-acceleration-for-discourse/21467](https://meta.discourse.org/t/full-site-cdn-acceleration-for-discourse/21467)</small>

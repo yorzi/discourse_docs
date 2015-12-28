@@ -2,8 +2,6 @@
 title: "Setting up Docker in Virtualbox for 'production' testing"
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/setting-up-docker-in-virtualbox-for-production-testing/12111](https://meta.discourse.org/t/setting-up-docker-in-virtualbox-for-production-testing/12111)</small>
-
 Continuing the discussion from [What is "Meta"?](https://meta.discourse.org/t/what-is-meta/5249/4):
 
 [quote="codinghorror, post:4, topic:5249"]
@@ -41,3 +39,5 @@ Log:
  - [16:22 PST] Bootstrap done, (**note that it took 10 minutes**) `./launcher start app` succeeds, a little port forwarding setting in VirtualBox, and:
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/2X/4/43a386727be7ca2ead9338dd97a43ec0f7dc4931.png" width="690" height="231"> 
 # Success! :smile: 
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/setting-up-docker-in-virtualbox-for-production-testing/12111](https://meta.discourse.org/t/setting-up-docker-in-virtualbox-for-production-testing/12111)</small>

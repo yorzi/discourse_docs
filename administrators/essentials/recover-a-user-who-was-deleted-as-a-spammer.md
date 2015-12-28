@@ -2,8 +2,6 @@
 title: Recover a user who was deleted as a spammer
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/recover-a-user-who-was-deleted-as-a-spammer/33372](https://meta.discourse.org/t/recover-a-user-who-was-deleted-as-a-spammer/33372)</small>
-
 So you accidentally flagged a post as spam and deleted the user from your site, but want to bring the user back. Oops.
 
 Nuking a spammer from Discourse will automatically block them from signing up based on email address and IP address. So the first thing you need to do to allow the person back onto your site is find them in the screened emails and ip addresses lists in admin.
@@ -35,3 +33,5 @@ Click it to reveal the post.
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/3X/3/6/366b59a3507148766665e65591b0b3799b319c42.jpg" width="690" height="252">
 
 Now you can assign the post to the new user by clicking the wrench icon on the right, selecting the post (or multiple posts if they had more than one in that topic), and changing the ownership to the new user. Once that's done, recover the posts so they are visible again.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/recover-a-user-who-was-deleted-as-a-spammer/33372](https://meta.discourse.org/t/recover-a-user-who-was-deleted-as-a-spammer/33372)</small>

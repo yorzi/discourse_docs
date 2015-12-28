@@ -2,8 +2,6 @@
 title: How to change FAQ, Privacy Policy, and Terms of Service
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-change-faq-privacy-policy-and-terms-of-service/18074](https://meta.discourse.org/t/how-to-change-faq-privacy-policy-and-terms-of-service/18074)</small>
-
 Today we changed how the FAQ, Privacy Policy, and Terms of Service pages are managed. Each of them now has a topic where they can be edited and discussed.
 
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/3X/5/f/5f071dc7b0f63e62ff9b85054d5a74e6c99689b9.png" width="660" height="153"> 
@@ -23,3 +21,5 @@ However, the "Terms of Service: Content License" and "Terms of Service: Miscella
 ## Translations
 
 Because of this change, the translations have been moved into the standard yml files. Transifex can't handle .html.erb files, and we shouldn't have been translating them that way in the first place. The `faq.*.html.erb`, `privacy.*.html.erb`, etc. files will be going away from the repo and from Transifex soon. I left them so that translators can see them and move them into the appropriate yml file.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-change-faq-privacy-policy-and-terms-of-service/18074](https://meta.discourse.org/t/how-to-change-faq-privacy-policy-and-terms-of-service/18074)</small>

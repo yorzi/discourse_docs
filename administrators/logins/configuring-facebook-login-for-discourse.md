@@ -2,8 +2,6 @@
 title: Configuring Facebook login for Discourse
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/configuring-facebook-login-for-discourse/13394](https://meta.discourse.org/t/configuring-facebook-login-for-discourse/13394)</small>
-
 1. Go to [developers.facebook.com][1] and create an app:
 
 2. Click Add Platform, choose Website, and enter `http://forum.example.com` in the Site URL field.
@@ -21,3 +19,5 @@ title: Configuring Facebook login for Discourse
 7. Go to Status & Review and change "available to the general public" to Yes.
 
   [1]: https://developers.facebook.com
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/configuring-facebook-login-for-discourse/13394](https://meta.discourse.org/t/configuring-facebook-login-for-discourse/13394)</small>

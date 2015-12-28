@@ -3,8 +3,6 @@ title: Plugin Tutorial #1 - How to manipulate the text in the composer?
 weight: 280
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/plugin-tutorial-1-how-to-manipulate-the-text-in-the-composer/10925](https://meta.discourse.org/t/plugin-tutorial-1-how-to-manipulate-the-text-in-the-composer/10925)</small>
-
 So, you want to manipulate the text in the composer but have no idea how? Let met guide you through the creation of a basic plugin that will turn the text into [Pirate Speak](http://en.wikipedia.org/wiki/International_Talk_Like_a_Pirate_Day).
 
 First of all, you need to create a `plugin.rb` file that will be your entry point.
@@ -60,3 +58,5 @@ Also, if you want **advanced** text manipulation plugins, you might want to chec
 
 - [MathJax plugin](http://meta.discourse.org/t/brand-new-plugin-interface/8793/43) which adds support for math notations using [MathJax](http://www.mathjax.org/) library.
 - [Spoiler Alert plugin](https://github.com/discourse/discourse-spoiler-alert) which allows anyone to prevent [spoiler]spoilers[/spoiler].
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/plugin-tutorial-1-how-to-manipulate-the-text-in-the-composer/10925](https://meta.discourse.org/t/plugin-tutorial-1-how-to-manipulate-the-text-in-the-composer/10925)</small>

@@ -2,8 +2,6 @@
 title: Configuring GitHub login for Discourse
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/configuring-github-login-for-discourse/13745](https://meta.discourse.org/t/configuring-github-login-for-discourse/13745)</small>
-
 1. Click **Settings** (the gear icon), then look for **Applications** in the left menu. Select **Register new application**.
 
     <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/2X/9/9c52aee3c875fc216e7f85047243ed67a0c8e124.png" width="539" height="499"> 
@@ -16,3 +14,5 @@ title: Configuring GitHub login for Discourse
      `github_client_secret`
 
 That's it!
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/configuring-github-login-for-discourse/13745](https://meta.discourse.org/t/configuring-github-login-for-discourse/13745)</small>

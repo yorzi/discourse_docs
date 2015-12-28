@@ -3,8 +3,6 @@ title: Invite individual users to a group
 weight: 300
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/invite-individual-users-to-a-group/15544](https://meta.discourse.org/t/invite-individual-users-to-a-group/15544)</small>
-
 Users may be invited to the site and prestaged in a group. 
 
 Upon account creation the user will be added to this group.
@@ -35,3 +33,5 @@ At the moment you may not invite users to predefined groups such as, trust level
 
 
   [1]: https://github.com/discourse/discourse_api
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/invite-individual-users-to-a-group/15544](https://meta.discourse.org/t/invite-individual-users-to-a-group/15544)</small>

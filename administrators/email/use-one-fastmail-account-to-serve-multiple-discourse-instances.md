@@ -2,8 +2,6 @@
 title: Use one Fastmail account to serve multiple Discourse instances
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/use-one-fastmail-account-to-serve-multiple-discourse-instances/15178](https://meta.discourse.org/t/use-one-fastmail-account-to-serve-multiple-discourse-instances/15178)</small>
-
 Discourse uses POP to extract mails from your mailbox and then deletes them. Any mail not recognized will be dropped. This could be a problem if you - for whatever reason - have only one mailbox to spare and want different domains aliases for that mailbox.
 
 [Fastmail](https://www.fastmail.fm/) has the option to make a user login to a specific folder in stead of the whole account. This is very useful.
@@ -15,3 +13,5 @@ Discourse uses POP to extract mails from your mailbox and then deletes them. Any
  5. Have each Discourse instance use `mailbox+<folder_name>@main.account.ext` as username to login to the POP server. Change `<folder_name>` to the folder of the Discourse instance in the mailbox. This will restrict Discourse to only see messages in that folder.
 
 I don't know of any other mail provider that has this way of logging in to POP accounts, but it works perfectly for me. Of course you can make lots of free mailboxes with Gmail, etc. But I didn't want to.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/use-one-fastmail-account-to-serve-multiple-discourse-instances/15178](https://meta.discourse.org/t/use-one-fastmail-account-to-serve-multiple-discourse-instances/15178)</small>

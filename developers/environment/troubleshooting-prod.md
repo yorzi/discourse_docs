@@ -2,8 +2,6 @@
 title: #Troubleshooting issues with Discourse environments
 ---
 
-<small class="documentation-source">Source: [https://github.com/discourse/discourse/blob/master/docs/TROUBLESHOOTING-prod.md](https://github.com/discourse/discourse/blob/master/docs/TROUBLESHOOTING-prod.md)</small>
-
 Are you having trouble setting up Discourse? Here are some basic things to
 check before reaching out to the community for help:
 
@@ -89,3 +87,5 @@ Some common situations:
 **Problem:** `ActiveRecord::StatementInvalid (PG::Error: ERROR:  column X does not exist`
 **Solution**: run `db:migrate` task to apply migrations to the database
 
+
+<small class="documentation-source">Source: [https://github.com/discourse/discourse/blob/master/docs/TROUBLESHOOTING-prod.md](https://github.com/discourse/discourse/blob/master/docs/TROUBLESHOOTING-prod.md)</small>

@@ -2,8 +2,6 @@
 title: Setting up file and image uploads to S3
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/setting-up-file-and-image-uploads-to-s3/7229](https://meta.discourse.org/t/setting-up-file-and-image-uploads-to-s3/7229)</small>
-
 So, you want to use S3 to handle image uploads? Here's the *definitive* guide:
 
 ## S3 registration
@@ -74,3 +72,5 @@ The "`region`" setting is optional and defaults to "`us-east-1`". You should ent
 That's it. From now on, all your images will be uploaded to and served from S3.
 
 Note how you did **not** have to create your S3 bucket? That's because Discourse will *automagically* create it for you if it doesn't already exists. :wink:
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/setting-up-file-and-image-uploads-to-s3/7229](https://meta.discourse.org/t/setting-up-file-and-image-uploads-to-s3/7229)</small>

@@ -2,8 +2,6 @@
 title: Configure automatic backups for Discourse
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/configure-automatic-backups-for-discourse/14855](https://meta.discourse.org/t/configure-automatic-backups-for-discourse/14855)</small>
-
 So you'd like to automatically back up all your Discourse data every day? 
 
 Go to the `/admin` settings, backup, and turn on the `backup daily` option.
@@ -29,3 +27,5 @@ If you've enabled S3 backups, check your S3 bucket to find the uploaded backup f
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/2X/0/0ec8819200c1307216ec11591e4548c01cfebcb1.png" width="690" height="292"> 
 
 Note that you can also enable an [automatic move to Glacier bucket lifecycle rule ](http://aws.typepad.com/aws/2012/11/archive-s3-to-glacier.html) to keep your S3 backup costs low.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/configure-automatic-backups-for-discourse/14855](https://meta.discourse.org/t/configure-automatic-backups-for-discourse/14855)</small>

@@ -2,8 +2,6 @@
 title: Multisite configuration with Docker
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/multisite-configuration-with-docker/14084](https://meta.discourse.org/t/multisite-configuration-with-docker/14084)</small>
-
 You may wish to host multiple domains on a singled Docker setup. To do so follow these instructions:
 
 ### We strongly recommend you run separate web and data containers
@@ -105,3 +103,5 @@ The above sample can be extended to provision evne more DBs, to do so, provision
 Make **sure** you amend the `host_names` node in multisite.yml to match the actual host name you wish to host. 
 
   [1]: https://github.com/samsaffron/pups
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/multisite-configuration-with-docker/14084](https://meta.discourse.org/t/multisite-configuration-with-docker/14084)</small>

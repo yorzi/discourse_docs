@@ -3,8 +3,6 @@ title: Edit a user setting for all Discourse users
 weight: 240
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/edit-a-user-setting-for-all-discourse-users/25162](https://meta.discourse.org/t/edit-a-user-setting-for-all-discourse-users/25162)</small>
-
 So you want to edit user setting for all Discourse users? Great, let's get started!
 
 From console, run this command:
@@ -33,3 +31,5 @@ User.update_all(email_always: true)
 ```
 
 That's it, you have edited user setting for all Discourse users!
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/edit-a-user-setting-for-all-discourse-users/25162](https://meta.discourse.org/t/edit-a-user-setting-for-all-discourse-users/25162)</small>

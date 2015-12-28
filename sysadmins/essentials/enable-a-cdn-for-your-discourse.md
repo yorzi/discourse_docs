@@ -2,8 +2,6 @@
 title: Enable a CDN for your Discourse
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/enable-a-cdn-for-your-discourse/14857](https://meta.discourse.org/t/enable-a-cdn-for-your-discourse/14857)</small>
-
 So you'd like to use a CDN to speed up worldwide access to common assets on your Discourse forum? 
 
 Sign up with the CDN of your choice -- we use and strongly recommend [Fastly](http://www.fastly.com/).
@@ -44,4 +42,6 @@ Once you've rebuilt, browse to your Discourse instance in the browser. View sour
 <script src="http://discourse-cdn.codinghorror.com/assets/locales/en-7084a68855205a9128245d2d0ce94ed9.js"></script>
 ```
 
-This topic covers the more common scenario of static asset acceleration. See [this topic](http://learndiscourse.org/full-site-cdn-acceleration-for-discourse) for full site (both dyamic and static asset) CDN acceleration.
+This topic covers the more common scenario of static asset acceleration. See [this topic](https://meta.discourse.org/t/full-site-cdn-acceleration-for-discourse/21467) for full site (both dyamic and static asset) CDN acceleration.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/enable-a-cdn-for-your-discourse/14857](https://meta.discourse.org/t/enable-a-cdn-for-your-discourse/14857)</small>

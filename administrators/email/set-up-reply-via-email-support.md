@@ -2,8 +2,6 @@
 title: Set up reply via email support
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/set-up-reply-via-email-support/14003](https://meta.discourse.org/t/set-up-reply-via-email-support/14003)</small>
-
 So you'd like to set up reply via email support for your Discourse forum.
 
 Good news! Unlike *outgoing* email, which is completely unsuitable for typical consumer mail services like GMail, Outlook, Yahoo Mail, etc, **incoming reply via-email tends to be extremely low volume**. Unless you have a truly massive forum with a zillion people replying to notification emails, you are probably safe using, say, Gmail.
@@ -41,3 +39,5 @@ If everything is working, you should see the footer of all notification mails no
 If things *aren't* working, check the `/logs` path on your Discourse in your web browser and look for email related error messages.
 
 Note: we have seen difficulties when signing up for a GMail account from a different country than your server is located in. For example, if you create the Gmail account from the UK, but the server is in the USA.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/set-up-reply-via-email-support/14003](https://meta.discourse.org/t/set-up-reply-via-email-support/14003)</small>

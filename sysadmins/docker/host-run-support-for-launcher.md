@@ -2,8 +2,6 @@
 title: Host run support for launcher
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/host-run-support-for-launcher/19771](https://meta.discourse.org/t/host-run-support-for-launcher/19771)</small>
-
 (advanced topic)
 
 During our provisioning we have a need to run certain commands on the **host**. 
@@ -39,3 +37,5 @@ Will output
     ./launcher: line 179: boom: command not found
 
 Note, if any command fails, execution of launcher will halt.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/host-run-support-for-launcher/19771](https://meta.discourse.org/t/host-run-support-for-launcher/19771)</small>

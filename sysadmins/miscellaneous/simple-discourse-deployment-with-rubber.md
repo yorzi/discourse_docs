@@ -2,8 +2,6 @@
 title: Simple Discourse Deployment with Rubber
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/simple-discourse-deployment-with-rubber/10029](https://meta.discourse.org/t/simple-discourse-deployment-with-rubber/10029)</small>
-
 I've put together what I believe to be the simplest way of deploying Discourse yet using [Rubber][1].
 
 First, some background on Rubber.  Rubber is a capistrano extension that keeps all configuration within your codebase and manages tasks by what roles a server has similar to Chef/Puppet etc.
@@ -97,3 +95,5 @@ When create_staging finishes.  In your browser `production.discourse.com` should
   [4]: https://github.com/rubber/rubber/wiki/Running-with-vagrant
   [5]: https://github.com/rubber/rubber/wiki/Providers
   [6]: https://github.com/rubber/rubber/issues/397
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/simple-discourse-deployment-with-rubber/10029](https://meta.discourse.org/t/simple-discourse-deployment-with-rubber/10029)</small>

@@ -3,8 +3,6 @@ title: How to reverse engineer the Discourse API
 weight: 360
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-reverse-engineer-the-discourse-api/20576](https://meta.discourse.org/t/how-to-reverse-engineer-the-discourse-api/20576)</small>
-
 Discourse is backed by a complete JSON api. Anything you can do on the site you can also do using the JSON api. 
 
 Many of the endpoints are properly documented in the [discourse_api][1] gem, however some endpoints lack documentation. 
@@ -31,9 +29,11 @@ Example: recategorize a topic.
 
 - You now have all the info you need. 
 
-1. The endpoint is `http://try.discourse.org/t/online-learning/108.json`
-2. Payload is passed using a `PUT`
-3. The params sent are: 
+ 1. The endpoint is `http://try.discourse.org/t/online-learning/108.json`
+
+ 2. Payload is passed using a `PUT`
+
+ 3. The params sent are: 
    `title: Online learning` 
    `category_id: 5`
 
@@ -45,3 +45,5 @@ They can be generated using the API admin tab.
 
 
   [1]: https://github.com/discourse/discourse_api
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-reverse-engineer-the-discourse-api/20576](https://meta.discourse.org/t/how-to-reverse-engineer-the-discourse-api/20576)</small>

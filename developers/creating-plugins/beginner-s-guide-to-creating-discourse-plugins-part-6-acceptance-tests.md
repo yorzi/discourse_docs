@@ -3,15 +3,13 @@ title: "Beginner’s Guide to Creating Discourse Plugins Part 6: Acceptance Test
 weight: 300
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/beginner-s-guide-to-creating-discourse-plugins-part-6-acceptance-tests/32619](https://meta.discourse.org/t/beginner-s-guide-to-creating-discourse-plugins-part-6-acceptance-tests/32619)</small>
-
 Previous tutorials in this series:
 
-Part 1: [Creating a basic plugin](http://learndiscourse.org/beginners-guide-to-creating-discourse-plugins)
-Part 2: [Plugin outlets](http://learndiscourse.org/beginners-guide-to-creating-discourse-plugins-part-2-plugin-outlets)
-Part 3: [Custom Settings](http://learndiscourse.org/beginners-guide-to-creating-discourse-plugins-part-3-custom-settings)
-Part 4: [git setup](http://learndiscourse.org/beginners-guide-to-creating-discourse-plugins-part-4-git-setup)
-Part 5: [Admin interfaces](http://learndiscourse.org/beginners-guide-to-creating-discourse-plugins-part-5-admin-interfaces)
+Part 1: [Creating a basic plugin](https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins/30515)
+Part 2: [Plugin outlets](https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-2-plugin-outlets/31001)
+Part 3: [Custom Settings](https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-3-custom-settings/31115)
+Part 4: [git setup](https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-4-git-setup/31272)
+Part 5: [Admin interfaces](https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-5-admin-interfaces/31761)
 
 ---
 
@@ -25,7 +23,7 @@ Assuming you have a development environment set up, if you visit the `http://loc
 
 First, **make sure you have the latest version of Discourse checked out**. Being able to run Acceptance tests from plugins is a relatively new feature, and if you don't check out the latest version your tests won't show up.
  
-For this article I am going to write an acceptance test for the [purple-tentacle](https://github.com/eviltrout/purple-tentacle) plugin that we authored in [part 5](http://learndiscourse.org/beginners-guide-to-creating-discourse-plugins-part-5-admin-interfaces) of this series.
+For this article I am going to write an acceptance test for the [purple-tentacle](https://github.com/eviltrout/purple-tentacle) plugin that we authored in [part 5](https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-5-admin-interfaces/31761) of this series.
 
 Adding an acceptance test is as easy as adding one file to your plugin. Create the following:
 
@@ -73,3 +71,5 @@ Not too bad is it? You can try the test yourself by visiting `http://localhost:3
 I hate to sound like a broken record but the [Ember documentation](http://guides.emberjs.com/v1.10.0/testing/test-helpers/) on testing is excellent. You might also want to see how Discourse tests various functionality by browsing the tests in our [javascript tests directory](https://github.com/discourse/discourse/tree/master/test/javascripts). We have quite a few examples in there you can learn from.
 
 Happy testing!
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/beginner-s-guide-to-creating-discourse-plugins-part-6-acceptance-tests/32619](https://meta.discourse.org/t/beginner-s-guide-to-creating-discourse-plugins-part-6-acceptance-tests/32619)</small>

@@ -3,8 +3,6 @@ title: Message Format support for localization
 weight: 220
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/message-format-support-for-localization/7035](https://meta.discourse.org/t/message-format-support-for-localization/7035)</small>
-
 For the feature I was working on yesterday, @codinghorror wanted a rather complex sentence. 
 
 "There is 1 unread and 9 new topics remaining, or browse other topics in [category]"
@@ -97,3 +95,5 @@ f = "I have {HATS, plural, one {one hat} other {# hats} few {# few hats}}"
 
   [1]: https://github.com/SlexAxton/messageformat.js
   [2]: http://en.wikipedia.org/wiki/Czech_declension
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/message-format-support-for-localization/7035](https://meta.discourse.org/t/message-format-support-for-localization/7035)</small>

@@ -2,8 +2,6 @@
 title: Export User Information List
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/export-user-information-list/18960](https://meta.discourse.org/t/export-user-information-list/18960)</small>
-
 Want to export user information list in a CSV file? Great, let's get started!
 
 1) Go to `/admin/users/list` page, and click on *Export Users* button:
@@ -23,3 +21,5 @@ Want to export user information list in a CSV file? Great, let's get started!
 The CSV file will contain user information.
 
 Congratulations! You have exported user information list successfully.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/export-user-information-list/18960](https://meta.discourse.org/t/export-user-information-list/18960)</small>

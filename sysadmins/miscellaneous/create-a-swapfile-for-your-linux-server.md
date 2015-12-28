@@ -2,8 +2,6 @@
 title: Create a swapfile for your Linux server
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/create-a-swapfile-for-your-linux-server/13880](https://meta.discourse.org/t/create-a-swapfile-for-your-linux-server/13880)</small>
-
 Most cloud virtual machine providers do not set up swapfiles as part of their server provisioning.
 
 If you are running the recommended 2 GB of memory for Discourse, a swap file is technically not required, but can be helpful just in case your server experiences memory pressure. With a swap file, rather than randomly terminating processes with an out of memory error, things will slow down instead.
@@ -57,3 +55,5 @@ The whole thing as a single copy and pastable script that creates a 2GB swapfile
 
 
   [1]: https://github.com/discourse/discourse/blob/master/docs/INSTALL-digital-ocean.md#access-your-droplet
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/create-a-swapfile-for-your-linux-server/13880](https://meta.discourse.org/t/create-a-swapfile-for-your-linux-server/13880)</small>

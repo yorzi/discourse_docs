@@ -2,8 +2,6 @@
 title: Migrating an old Discourse install to Docker
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/migrating-an-old-discourse-install-to-docker/12439](https://meta.discourse.org/t/migrating-an-old-discourse-install-to-docker/12439)</small>
-
 Deploying [Discourse on Docker][1] is currently our recommended setup. It avoids many pitfalls installations have, such as misconfigured nginx, sub-optimal Ruby defaults and so on. 
 
 The Docker based setup ensures we are all on the same page when diagnosing installation issues and completely eradicates a class of support calls. 
@@ -61,3 +59,5 @@ At the end of this process you will have a working website. Carry on.
 Yay. You are done. 
 
   [1]: https://github.com/discourse/discourse_docker
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/migrating-an-old-discourse-install-to-docker/12439](https://meta.discourse.org/t/migrating-an-old-discourse-install-to-docker/12439)</small>

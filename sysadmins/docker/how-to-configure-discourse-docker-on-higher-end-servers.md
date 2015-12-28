@@ -2,8 +2,6 @@
 title: How to configure Discourse Docker on higher end servers
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-configure-discourse-docker-on-higher-end-servers/18569](https://meta.discourse.org/t/how-to-configure-discourse-docker-on-higher-end-servers/18569)</small>
-
 When you install Discourse on an instance with 4GB or more you should consider the following:
 
 ### Monitor your setup
@@ -35,3 +33,5 @@ We update our base templates with various optimisations, be sure to update regul
 
   [1]: https://meta.discourse.org/t/newrelic-plugin/12986
   [2]: http://unicorn.bogomips.org/
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-configure-discourse-docker-on-higher-end-servers/18569](https://meta.discourse.org/t/how-to-configure-discourse-docker-on-higher-end-servers/18569)</small>

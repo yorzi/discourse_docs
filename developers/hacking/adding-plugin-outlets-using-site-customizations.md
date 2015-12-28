@@ -3,8 +3,6 @@ title: Adding plugin-outlets using site customizations
 weight: 350
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/adding-plugin-outlets-using-site-customizations/32727](https://meta.discourse.org/t/adding-plugin-outlets-using-site-customizations/32727)</small>
-
 In [Plugin System Upgrades][1] @eviltrout introduced a system for extending Discourse HTML using plugin outlets. 
 
 Plugin outlets are tagged areas in our application that allow you to inject a template. The template has access to the backing controller so it can be dynamic. 
@@ -52,3 +50,5 @@ Using this technique even business and standard customers can heavily extend Dis
 
   [1]: https://meta.discourse.org/t/plugin-system-upgrades/16120
   [2]: https://meta.discourse.org/t/plugin-outlet-locations/29589
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/adding-plugin-outlets-using-site-customizations/32727](https://meta.discourse.org/t/adding-plugin-outlets-using-site-customizations/32727)</small>

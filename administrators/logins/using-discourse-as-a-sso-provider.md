@@ -2,8 +2,6 @@
 title: Using Discourse as a SSO provider
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/using-discourse-as-a-sso-provider/32974](https://meta.discourse.org/t/using-discourse-as-a-sso-provider/32974)</small>
-
 So you want to use Discourse as a SSO provider for your own web app? Great! Let's get started.
 
 ## Enable SSO provider setting
@@ -48,6 +46,8 @@ That's it. By now you should have set up your web app to use Discourse as SSO pr
 
 ### Community contributed "Using Discourse as SSO provider" implementations:
 
-- A Go package that implements Discourse as SSO provider: https://github.com/sekhat/godiscuss/blob/master/sso/sso.gohttps://github.com/sekhat/godiscuss/blob/master/sso/sso.go (made by @sekhat)
+- A Go package that implements Discourse as SSO provider: https://github.com/sekhat/godiscuss/blob/master/sso/sso.go (made by @sekhat)
 
 - A PHP script that implements Discourse as SSO provider: https://gist.github.com/paxmanchris/e93018a3e8fbdfced039 (made by @paxmanchris)
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/using-discourse-as-a-sso-provider/32974](https://meta.discourse.org/t/using-discourse-as-a-sso-provider/32974)</small>

@@ -2,8 +2,6 @@
 title: Change the domain name or rename my Discourse?
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/change-the-domain-name-or-rename-my-discourse/16098](https://meta.discourse.org/t/change-the-domain-name-or-rename-my-discourse/16098)</small>
-
 You may eventually want to change the domain name of your Discourse instance, from say
 
 `talk.foo.com` &rarr; `talk.bar.com`
@@ -68,3 +66,5 @@ This remaps text in posts from the old URL to the new URL, then regenerates all 
 And now you're done!
 
 (but don't forget to turn the CDN back on after this, if you had one.)
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/change-the-domain-name-or-rename-my-discourse/16098](https://meta.discourse.org/t/change-the-domain-name-or-rename-my-discourse/16098)</small>

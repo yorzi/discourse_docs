@@ -2,8 +2,6 @@
 title: Adventures in haproxy and varnish with discourse because i hate myself
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/adventures-in-haproxy-and-varnish-with-discourse-because-i-hate-myself/27782](https://meta.discourse.org/t/adventures-in-haproxy-and-varnish-with-discourse-because-i-hate-myself/27782)</small>
-
 Had some downtime this afternoon and without even really planning to ended up setting up haproxy in front of my web server, which hosts a bunch of stuff including Discourse. The configuration, surprisingly, wound up working without much hassle at all; I give up SPDY support because haproxy doesn't support it, but I don't think that's going to have a whole lot of material effect.
 
 I wound up dragging a second unused server into the mix to work as the haproxy host, but I don't think there'd be any issue in running everything on one box. My stack, when done, is haproxy -> varnish -> nginx, with the main nginx instance serving up my sites (including discourse, which seems perfectly happy being sandwiched behind haproxy and varnish and an nginx).
@@ -122,3 +120,5 @@ server {
 Then whatever magic @sam has in the Discourse docker image takes care of the rest.
 
 edited to add - Updated the post with my current prod config, which is a teeny bit cleaner. I'm also doing a 301 redirect for one of my sites at the haproxy level rather than with nginx, because doing a redirect at the nginx level means waiting for an ssl handshake by haproxy, then getting the redirect from nginx, then doing a second ssl handshake with haproxy for the new site. Doing the redirect by hostname with haproxy saves quite a bit of time. This seems obvious in hindsight and I should have done it that way in the first place.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/adventures-in-haproxy-and-varnish-with-discourse-because-i-hate-myself/27782](https://meta.discourse.org/t/adventures-in-haproxy-and-varnish-with-discourse-because-i-hate-myself/27782)</small>

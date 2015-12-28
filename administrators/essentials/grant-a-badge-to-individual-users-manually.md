@@ -2,8 +2,6 @@
 title: Grant a badge to individual users manually
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/grant-a-badge-to-individual-users-manually/29426](https://meta.discourse.org/t/grant-a-badge-to-individual-users-manually/29426)</small>
-
 In this guide we'll be creating a new badge "Scholar" that we will grant to individual users manually. Let's get started!
 
 ## Create a new custom badge
@@ -39,3 +37,5 @@ Go to user profile page > Badges tab and you will see newly granted "Scholar" ba
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/3X/f/d/fd6393e15061190d3579d77cb497233eb6bc3125.png" width="690" height="190"> 
 
 That's it. Now go grant some badges to your users!
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/grant-a-badge-to-individual-users-manually/29426](https://meta.discourse.org/t/grant-a-badge-to-individual-users-manually/29426)</small>

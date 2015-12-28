@@ -2,8 +2,6 @@
 title: Customize subject format for standard emails
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801](https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801)</small>
-
 So you want to customize subject format for standard emails? Great, let's get started!
 
 The subject for standard emails can be customized from: `Admin` / `Settings` / `Email` / `email subject`
@@ -51,3 +49,5 @@ Complied subject for the above topic will be:
 > Re: [Discourse Meta] [howto] How to update to Discourse 1.0?
 
 That's it! You have successfully customized subject format for standard emails.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801](https://meta.discourse.org/t/customize-subject-format-for-standard-emails/20801)</small>

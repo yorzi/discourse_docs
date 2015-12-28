@@ -2,8 +2,6 @@
 title: Link User Title to a Group
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/link-user-title-to-a-group/19169](https://meta.discourse.org/t/link-user-title-to-a-group/19169)</small>
-
 So you want to link user title to a group? Great, let's get started!
 
 In this guide we'll assume that you want to link user title to `discourse` group.
@@ -21,3 +19,5 @@ In this guide we'll assume that you want to link user title to `discourse` group
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/3X/3/a/3a29f343ea85985c11534ea01b2bd195a76c2b75.png" width="365" height="141"> 
 
 That's it, you've linked user title to `discourse` group. Congratulations!
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/link-user-title-to-a-group/19169](https://meta.discourse.org/t/link-user-title-to-a-group/19169)</small>

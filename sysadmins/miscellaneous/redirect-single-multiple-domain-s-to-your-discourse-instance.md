@@ -2,8 +2,6 @@
 title: Redirect single/multiple domain(s) to your Discourse instance
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/redirect-single-multiple-domain-s-to-your-discourse-instance/18492](https://meta.discourse.org/t/redirect-single-multiple-domain-s-to-your-discourse-instance/18492)</small>
-
 So you want to redirect domain(s) to your Discourse instance? Great, let's get started!
 
 In this tutorial we'll show how to redirect `www.example.com` and `example.com` to `talk.example.com`.
@@ -97,3 +95,5 @@ Run this command:
 ```
 
 Congratulations, that's it! Try visiting `example.com` and `www.example.com`, they both will redirect to `talk.example.com`!
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/redirect-single-multiple-domain-s-to-your-discourse-instance/18492](https://meta.discourse.org/t/redirect-single-multiple-domain-s-to-your-discourse-instance/18492)</small>

@@ -2,8 +2,6 @@
 title: Beginners Guide to Install Discourse on Mac OS X for Development
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-mac-os-x-for-development/15772](https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-mac-os-x-for-development/15772)</small>
-
 So you want to set up Discourse on Mac OS X to hack on and develop with?
 
 We'll assume that you don't have Ruby/Rails/Postgre/Redis installed on your Mac. Let's begin!
@@ -136,7 +134,7 @@ Just enter your input as suggested, you can create an admin account.
 
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/2X/9/982a9ffe0223aebb8df7fd9efbd07dbedef78c0a.png" width="690" height="415"> 
 
-Happy hacking! And to get started with that, see [Beginner’s Guide to Creating Discourse Plugins](http://learndiscourse.org/beginners-guide-to-creating-discourse-plugins).
+Happy hacking! And to get started with that, see [Beginner’s Guide to Creating Discourse Plugins](https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins/30515).
 
 
   [mac_script]: https://github.com/techAPJ/install-rails/blob/master/mac
@@ -150,7 +148,9 @@ Happy hacking! And to get started with that, see [Beginner’s Guide to Creating
   [redis_link]: http://redis.io/
   [bundler_link]: http://bundler.io/
   [imagemagick_link]: http://www.imagemagick.org/
-  [install_guide]: http://learndiscourse.org/install
+  [install_guide]: https://github.com/discourse/discourse/blob/master/docs/INSTALL.md
   [docker_guide]: https://meta.discourse.org/t/beginners-guide-to-deploy-discourse-on-digital-ocean-using-docker/12156
   [short_name]: http://forums.macrumors.com/showthread.php?t=898855
   [mc]: http://mailcatcher.me/
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-mac-os-x-for-development/15772](https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-mac-os-x-for-development/15772)</small>

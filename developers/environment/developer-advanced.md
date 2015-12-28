@@ -2,8 +2,6 @@
 title: Discourse Advanced Developer Install Guide
 ---
 
-<small class="documentation-source">Source: [https://github.com/discourse/discourse/blob/master/docs/DEVELOPER-ADVANCED.md](https://github.com/discourse/discourse/blob/master/docs/DEVELOPER-ADVANCED.md)</small>
-
 This guide is aimed at advanced Rails developers who have installed their own Rails apps before. If you are new to Rails, you are likely much better off with our **[Discourse Vagrant Developer Guide](VAGRANT.md)**.
 
 Note: If you are developing on a Mac, you will probably want to look at [these instructions](DEVELOPMENT-OSX-NATIVE.md) as well.
@@ -16,7 +14,7 @@ Note: If you are developing on a Mac, you will probably want to look at [these i
 2. Install and configure Redis 2+.
   1. Run `redis-server -v` to see if you already have it.
 3. Install ImageMagick
-4. Install libxml2, libpq-dev, g++, and make.
+4. Install libxml2, libpq-dev, g++, gifsicle, libjpeg-progs and make.
 5. Install Ruby 2.1.3 and Bundler.
 6. Clone the project and bundle.
 
@@ -150,3 +148,5 @@ Needed to run javascript tests.
     rm phantomjs-1.8.2-linux-i686.tar.bz2
     ln -s /usr/local/share/phantomjs-1.8.2-linux-i686/bin/phantomjs /usr/local/bin/phantomjs
 
+
+<small class="documentation-source">Source: [https://github.com/discourse/discourse/blob/master/docs/DEVELOPER-ADVANCED.md](https://github.com/discourse/discourse/blob/master/docs/DEVELOPER-ADVANCED.md)</small>

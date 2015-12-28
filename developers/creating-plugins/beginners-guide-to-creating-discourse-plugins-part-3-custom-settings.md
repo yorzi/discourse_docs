@@ -3,12 +3,10 @@ title: "Beginner's Guide to Creating Discourse Plugins Part 3: Custom Settings"
 weight: 360
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-3-custom-settings/31115](https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-3-custom-settings/31115)</small>
-
 Previous tutorials in this series:
 
-Part 1: [Creating a basic plugin](http://learndiscourse.org/beginners-guide-to-creating-discourse-plugins)
-Part 2: [Plugin outlets](http://learndiscourse.org/beginners-guide-to-creating-discourse-plugins-part-2-plugin-outlets)
+Part 1: [Creating a basic plugin](https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins/30515)
+Part 2: [Plugin outlets](https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-2-plugin-outlets/31001)
 
 ---
 
@@ -81,4 +79,6 @@ Now go forth and add custom settings to your plugins!
 ---
 ### More in the series
 
-Part 4: [git setup](http://learndiscourse.org/beginners-guide-to-creating-discourse-plugins-part-4-git-setup)
+Part 4: [git setup](https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-4-git-setup/31272)
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-3-custom-settings/31115](https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-3-custom-settings/31115)</small>

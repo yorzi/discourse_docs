@@ -2,8 +2,6 @@
 title: Change tracking branch for your Discourse instance
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/change-tracking-branch-for-your-discourse-instance/17014](https://meta.discourse.org/t/change-tracking-branch-for-your-discourse-instance/17014)</small>
-
 We do not recommend tracking *master* branch for your Discourse instance, because *master* branch is usually bleeding edge or unstable. In this guide we'll describe how to change tracking branch for your Discourse instance to *tests-passed*. Let's get started!
 
 Open configuration file `app.yml`. From console, run these commands:
@@ -40,3 +38,5 @@ git pull
 ```
 
 That's it! Your Discourse instance is tracking *tests-passed* branch now!
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/change-tracking-branch-for-your-discourse-instance/17014](https://meta.discourse.org/t/change-tracking-branch-for-your-discourse-instance/17014)</small>

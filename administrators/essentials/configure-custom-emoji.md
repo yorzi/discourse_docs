@@ -2,8 +2,6 @@
 title: Configure custom emoji
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/configure-custom-emoji/23365](https://meta.discourse.org/t/configure-custom-emoji/23365)</small>
-
 Willing to change emojis for your Discourse? Here we go.
 
 ### Emoji set
@@ -29,3 +27,5 @@ You can:
 - Or select multiple files and drag them into `Name` field. Filename will be used to name the emoji.
 
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/3X/1/0/10e71144d3487a23388bbcbcc53f47a197d107aa.png" width="690" height="404">
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/configure-custom-emoji/23365](https://meta.discourse.org/t/configure-custom-emoji/23365)</small>

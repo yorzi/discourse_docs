@@ -2,8 +2,6 @@
 title: What are Badges?
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/what-are-badges/32540](https://meta.discourse.org/t/what-are-badges/32540)</small>
-
 Badges in Discourse reinforce positive user behaviour and facilitates "learning by doing". It is a central part of Discourse's [gamification](http://blog.codinghorror.com/the-gamification/) features.
 
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/3X/e/2/e2d319c6b57c519d11f88250d3e632f13b6b6f56.png" width="690" height="383"> 
@@ -40,14 +38,14 @@ For example:
 - Added a link
 - Received a like.
 
-Certain badges also coincide with new [trust levels](http://learndiscourse.org/what-do-user-trust-levels-do). When you've attained a new trust level, you'll receive a corresponding badge to notify you of the bump-up.
+Certain badges also coincide with new [trust levels](https://meta.discourse.org/t/what-do-user-trust-levels-do/4924). When you've attained a new trust level, you'll receive a corresponding badge to notify you of the bump-up.
 
 - Trust Level 1 --> Basic
 - Trust Level 2 --> Member
 - Trust Level 3 --> Regular
 - Trust Level 4 --> Leader
 
-Want to create your own automatic badge? Go read how to [trigger custom badge queries](http://learndiscourse.org/triggered-custom-badge-queries).
+Want to create your own automatic badge? Go read how to [trigger custom badge queries](https://meta.discourse.org/t/triggered-custom-badge-queries/19336).
 
 ## Badge Types - WIP
 
@@ -57,12 +55,14 @@ Bronze/Silver/Gold *What do they actually mean? Is it strictly a categorisation,
 
 - [What cool badge queries have you come up with?][1]
 - [Some common badge queries][2]
-- [A badge for all members of a group](http://learndiscourse.org/a-badge-for-all-members-of-a-group)
+- [A badge for all members of a group](https://meta.discourse.org/t/a-badge-for-all-members-of-a-group/18147)
 - [What badges, if any, should Discourse have?][3]
 - [Initial Discourse badge design spec][4]
 
 
   [1]: https://meta.discourse.org/t/what-cool-badge-queries-have-you-come-up-with/18978
-  [2]: http://learndiscourse.org/some-common-badge-queries-idea
+  [2]: https://meta.discourse.org/t/some-common-badge-queries-idea/31859
   [3]: https://meta.discourse.org/t/what-badges-if-any-should-discourse-have/5933
   [4]: https://meta.discourse.org/t/initial-discourse-badge-design-spec/13088
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/what-are-badges/32540](https://meta.discourse.org/t/what-are-badges/32540)</small>

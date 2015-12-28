@@ -2,7 +2,7 @@
 title: Sending Bulk User Invites
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/sending-bulk-user-invites/16468](https://meta.discourse.org/t/sending-bulk-user-invites/16468)</small>
+> :warning: if you have SSO enabled, or have disabled local logins, invites cannot be sent as they would bypass parent site authentication. Invites only work if SSO is *not* enabled and local logins *are* enabled.
 
 So you want to invite users to your Discourse instance, but you have so many that sending invites individually would be a huge pain? Good news -- you can send **bulk invites!** Here's how:
 
@@ -75,3 +75,5 @@ Once clicking the confirmation link:
 If the invites are never clicked, they will expire naturally after 4 days.
 
 Congratulations! That's it, you've successfully sent out bulk invites.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/sending-bulk-user-invites/16468](https://meta.discourse.org/t/sending-bulk-user-invites/16468)</small>

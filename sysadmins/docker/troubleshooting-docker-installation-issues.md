@@ -2,8 +2,6 @@
 title: Troubleshooting Docker Installation Issues
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/troubleshooting-docker-installation-issues/17224](https://meta.discourse.org/t/troubleshooting-docker-installation-issues/17224)</small>
-
 In most cases, installing docker is fairly painless and easy. However, there are some things that can cause the installation to fail, and thus prevent you from running Discourse on Docker.
 
 ##Supported Configurations
@@ -53,3 +51,5 @@ Your host may not support loading other kernels; or you may not have upgraded yo
 Your host may not allow assigning an internal IP address, or the server is restricted from assigning addresses. Check that your host supports docker and private networking.
 
   [1]: https://docs.docker.com/installation/
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/troubleshooting-docker-installation-issues/17224](https://meta.discourse.org/t/troubleshooting-docker-installation-issues/17224)</small>

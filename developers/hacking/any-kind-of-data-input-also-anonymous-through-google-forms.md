@@ -3,8 +3,6 @@ title: Any kind of Data-Input (also anonymous) through Google-Forms
 weight: 160
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/any-kind-of-data-input-also-anonymous-through-google-forms/21008](https://meta.discourse.org/t/any-kind-of-data-input-also-anonymous-through-google-forms/21008)</small>
-
 Heyah,
 
 I have written a short script **automatically posting new Google-Form-Entries to Discourse**. You can use it to allow any kind of 3-party Data input into discourse for example:
@@ -117,3 +115,5 @@ You might want to also take a look at my ["automatically email form-data" script
 
 
   [1]: https://gist.github.com/ligthyear/5488787
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/any-kind-of-data-input-also-anonymous-through-google-forms/21008](https://meta.discourse.org/t/any-kind-of-data-input-also-anonymous-through-google-forms/21008)</small>

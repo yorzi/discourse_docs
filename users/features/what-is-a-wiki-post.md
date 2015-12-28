@@ -2,8 +2,6 @@
 title: What is a Wiki Post?
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/what-is-a-wiki-post/30801](https://meta.discourse.org/t/what-is-a-wiki-post/30801)</small>
-
 A wiki post is a special type of post that can be edited by any user on your forum.
 
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/3X/e/1/e183b4872aef7d5b056093623626a77bdc79e619.png" width="690" height="367"> 
@@ -30,3 +28,5 @@ To [mark a post as wiki-editable][1], you need moderator/admin privileges. (or T
 
 
   [1]: https://meta.discourse.org/t/how-to-create-a-wiki-post/30802
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/what-is-a-wiki-post/30801](https://meta.discourse.org/t/what-is-a-wiki-post/30801)</small>

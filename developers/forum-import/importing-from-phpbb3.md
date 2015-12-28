@@ -3,8 +3,6 @@ title: Importing from phpBB3
 weight: 380
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/importing-from-phpbb3/30810](https://meta.discourse.org/t/importing-from-phpbb3/30810)</small>
-
 This guide describes how to use the [phpBB3 import script][1] for importing from phpBB **3.0.x** and **3.1.x**.
 
 The script used in this Howto is included in Discourse since **v1.4.0.beta5** and in the `master` or `tests-passed` branches.
@@ -90,10 +88,12 @@ Feel free to start your favorite Ruby IDE and help making the importer even bett
 
 
   [1]: https://github.com/discourse/discourse/blob/master/script/import_scripts/phpbb3.rb
-  [2]: http://learndiscourse.org/beginners-guide-to-install-discourse-on-ubuntu-for-development
-  [3]: http://learndiscourse.org/beginners-guide-to-install-discourse-on-mac-os-x-for-development
+  [2]: https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-ubuntu-for-development/14727
+  [3]: https://meta.discourse.org/t/beginners-guide-to-install-discourse-on-mac-os-x-for-development/15772
   [4]: https://github.com/discourse/discourse/blob/master/script/import_scripts/phpbb3/settings.yml
   [5]: http://localhost:3000/sidekiq
   [6]: https://github.com/discoursehosting/discourse-migratepassword
   [7]: https://github.com/nlalonde/ruby-bbcode-to-md
   [8]: https://gist.github.com/gschlager/c6ba58bdd2fa2839aebd
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/importing-from-phpbb3/30810](https://meta.discourse.org/t/importing-from-phpbb3/30810)</small>

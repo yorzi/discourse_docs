@@ -3,8 +3,6 @@ title: Embedding Discourse Comments via Javascript
 weight: 230
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963](https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963)</small>
-
 Discourse has the ability to embed the comments from a topic in a remote site using a Javascript API that creates an IFRAME. For an example of this in action, check out [Coding Horror's blog](http://blog.codinghorror.com/welcome-to-the-internet-of-compromised-things/#discourse-comments). The blog is run via [Ghost](https://ghost.org/) but the comments are embedded from his [Discourse forum](http://discourse.codinghorror.com/t/welcome-to-the-internet-of-compromised-things/3550).
 
 One important thing to note with this setup is that **users have to navigate to your forum to post replies**. This is intentional, as we feel that the posting interface on a Discourse forum is currently much richer than what we could embed via Javascript.
@@ -90,3 +88,5 @@ The only difference here is we've replaced `discourseEmbedUrl` with the id of a 
 ### Troubleshooting
 
 The most common issue users have when embedding Discourse is setting the correct value for the embeddable hosts you added. Make sure to double check that it is only the domain of your site, and contains no extra slashes or invalid characters.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963](https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963)</small>

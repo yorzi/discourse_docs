@@ -2,8 +2,6 @@
 title: Deploying Discourse to Amazon (and other clouds)
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/deploying-discourse-to-amazon-and-other-clouds/1632](https://meta.discourse.org/t/deploying-discourse-to-amazon-and-other-clouds/1632)</small>
-
 # What?
 
 This is a work in progress still, but I've been working on making Discourse dead simple to deploy to the cloud (AWS, OpenStack, etc) with [Juju][1]. You can find the progress so far on [Juju Charms site][2] and mirrored on [Github](https://github.com/marcoceppi/discourse-charm); <s>there is still a bit of work left to get this working 100% but figured I put this out there if people were interested.</s> This now works to get discourse running, future updates are simply to streamline the deployment and management of discourse.
@@ -70,3 +68,5 @@ You can have as many admins as you'd like just provide them in a comma separated
   [1]: http://juju.ubuntu.com
   [2]: http://jujucharms.com/~marcoceppi/precise/discourse
   [3]: https://juju.ubuntu.com/get-started/
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/deploying-discourse-to-amazon-and-other-clouds/1632](https://meta.discourse.org/t/deploying-discourse-to-amazon-and-other-clouds/1632)</small>

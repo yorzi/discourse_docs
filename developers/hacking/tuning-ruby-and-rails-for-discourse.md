@@ -3,8 +3,6 @@ title: Tuning Ruby and Rails for Discourse
 weight: 100
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/tuning-ruby-and-rails-for-discourse/4126](https://meta.discourse.org/t/tuning-ruby-and-rails-for-discourse/4126)</small>
-
 Here are some quick raw notes I would like to flesh out to a blog post, eventually. 
 
 Been noticing performance on the front page of Discourse is rather bad, after digging in with MiniProfiler I notices lots of GCs are hit for a single page view. I ran some tests in production with a few settings and wanted to share them with you. 
@@ -135,3 +133,5 @@ We need to re-test this under rails 4 to see if its faster or slower and determi
 
  
   [1]: http://en.wikipedia.org/wiki/Intel_Turbo_Boost
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/tuning-ruby-and-rails-for-discourse/4126](https://meta.discourse.org/t/tuning-ruby-and-rails-for-discourse/4126)</small>

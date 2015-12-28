@@ -2,8 +2,6 @@
 title: Move your Discourse Instance to a Different Server
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/move-your-discourse-instance-to-a-different-server/15721](https://meta.discourse.org/t/move-your-discourse-instance-to-a-different-server/15721)</small>
-
 So you want to move your existing Discourse instance to a new server? 
 
 In this guide we'll move an existing Discourse instance on [Linode][linode] to a new Discourse instance on [Digital Ocean][do], although these steps will work on other cloud providers that also support Docker. Let's start!
@@ -92,8 +90,10 @@ If anything needs to be improved in this guide, feel free to ask on [meta.discou
   [do]:               https://www.digitalocean.com/?refcode=5fa48ac82415
   [dep_ubuntu]:       https://github.com/discourse/discourse/blob/master/docs/INSTALL-ubuntu.md
   [ubuntu_update]:    https://github.com/discourse/discourse/blob/master/docs/INSTALL-ubuntu.md#updating-discourse
-  [official_install]: http://learndiscourse.org/install
+  [official_install]: https://github.com/discourse/discourse/blob/master/docs/INSTALL.md
   [do_install]:       https://github.com/discourse/discourse/blob/master/docs/INSTALL-digital-ocean.md
   [linode]:           https://www.linode.com/
   [namecheap]:        https://www.namecheap.com/
-  [meta]:             http://learndiscourse.org/move-your-discourse-instance-to-a-different-server
+  [meta]:             https://meta.discourse.org/t/move-your-discourse-instance-to-a-different-server/15721
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/move-your-discourse-instance-to-a-different-server/15721](https://meta.discourse.org/t/move-your-discourse-instance-to-a-different-server/15721)</small>

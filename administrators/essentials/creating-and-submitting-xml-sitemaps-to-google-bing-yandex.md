@@ -2,8 +2,6 @@
 title: Creating and Submitting XML Sitemaps to Google, Bing & Yandex
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/creating-and-submitting-xml-sitemaps-to-google-bing-yandex/22655](https://meta.discourse.org/t/creating-and-submitting-xml-sitemaps-to-google-bing-yandex/22655)</small>
-
 While not necessary, submitting a sitemap will make your site appear faster on search indexes.
 This Howto covers submitting sitemaps to Google, Bing and Yandex.
 
@@ -35,3 +33,5 @@ https://www.google.com/webmasters/tools/home
 ### Where will my site's pages get found now?
 
 Google, Yahoo, Bing, Yandex, Duckduckgo etc. will now index your site! :surfer: :smiley:
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/creating-and-submitting-xml-sitemaps-to-google-bing-yandex/22655](https://meta.discourse.org/t/creating-and-submitting-xml-sitemaps-to-google-bing-yandex/22655)</small>

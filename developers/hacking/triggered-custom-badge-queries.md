@@ -3,8 +3,6 @@ title: Triggered custom badge queries
 weight: 260
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/triggered-custom-badge-queries/19336](https://meta.discourse.org/t/triggered-custom-badge-queries/19336)</small>
-
 When defining badges there is this beguiling box "Trigger" with the options:
 
 - Update daily
@@ -60,3 +58,5 @@ To avoid any potential issues this constraint was added, it also allows you to a
 If you are having trouble writing a badge query, post a question on meta, describe what you are trying to solve and your work in progress. We will try to help. 
 
 Badge triggers is a complex subject often "daily" updates suffice and all this complex stuff can be skipped.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/triggered-custom-badge-queries/19336](https://meta.discourse.org/t/triggered-custom-badge-queries/19336)</small>

@@ -2,8 +2,6 @@
 title: Discourse Developer Install Guide (Vagrant)
 ---
 
-<small class="documentation-source">Source: [https://github.com/discourse/discourse/blob/master/docs/VAGRANT.md](https://github.com/discourse/discourse/blob/master/docs/VAGRANT.md)</small>
-
 ### If you are on a Mac or PC, please try our [Discourse as Your First Rails App](http://blog.discourse.org/2013/04/discourse-as-your-first-rails-app/) blog post first!
 
 (If you have experience setting up Rails projects, you might want to take a look at our **[Discourse Advanced Developer Guide](DEVELOPER-ADVANCED.md)**. It also contains instructions on building your own Vagrant VM.)
@@ -91,7 +89,7 @@ bundle exec rake db:migrate
 Once your VM is up to date, you can start a rails instance using the following command from the /vagrant directory:
 
 ```
-bundle exec rails s
+bundle exec rails s -b 0.0.0.0
 ```
 
 In a few seconds, rails will start serving pages. To access them, open a web browser to [http://localhost:4000](http://localhost:4000) - if it all worked you should see discourse! Congratulations, you are ready to start working!
@@ -143,3 +141,5 @@ When you're done working on Discourse, you can shut down Vagrant with:
 vagrant halt
 ```
 
+
+<small class="documentation-source">Source: [https://github.com/discourse/discourse/blob/master/docs/VAGRANT.md](https://github.com/discourse/discourse/blob/master/docs/VAGRANT.md)</small>

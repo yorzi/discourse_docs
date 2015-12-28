@@ -2,8 +2,6 @@
 title: 'What are "Likes"?'
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/what-are-likes/30803](https://meta.discourse.org/t/what-are-likes/30803)</small>
-
 Express agreement, support, and highlight interesting posts with the prominent ‚ù§ button on every post.
 
 <img src="//discourse-meta.s3-us-west-1.amazonaws.com/original/3X/4/7/473eec77eeafa15d320e6a947657e840c59786ad.png" width="634" height="208"> 
@@ -23,3 +21,5 @@ Express agreement, support, and highlight interesting posts with the prominent ‚
 - You can only undo a like within 10 minutes after submitting the like. (default admin setting).
 - Likes affect post rankings (undocumented) (Top, external comments etc.)
 - The amount of likes you can pass out in a day depends on your [Trust Level]().
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/what-are-likes/30803](https://meta.discourse.org/t/what-are-likes/30803)</small>

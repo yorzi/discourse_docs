@@ -3,8 +3,6 @@ title: Using the Discourse API Ruby Gem
 weight: 400
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/using-the-discourse-api-ruby-gem/17587](https://meta.discourse.org/t/using-the-discourse-api-ruby-gem/17587)</small>
-
 So you want to use Discourse API? Great! Let's get started.
 
 ## Set up Discourse development environment
@@ -47,4 +45,6 @@ Now in console, from `discourse_api` directory run:
 
 This command will print out latest topics from your Discourse instance.
 
-That's it. Start using Discourse API today.
+That's it. Start using [Discourse API](https://meta.discourse.org/t/discourse-api-documentation/22706) today.
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/using-the-discourse-api-ruby-gem/17587](https://meta.discourse.org/t/using-the-discourse-api-ruby-gem/17587)</small>

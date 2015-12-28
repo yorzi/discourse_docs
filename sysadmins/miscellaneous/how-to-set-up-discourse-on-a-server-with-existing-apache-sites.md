@@ -2,8 +2,6 @@
 title: How to set up Discourse on a server with existing Apache sites
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-set-up-discourse-on-a-server-with-existing-apache-sites/30013](https://meta.discourse.org/t/how-to-set-up-discourse-on-a-server-with-existing-apache-sites/30013)</small>
-
 **It's not as daunting as it sounds!**
 
 As you probably know, the only supported installs of Discourse are the Docker installs. While this may sound a bit intimidating at first, it's really not all that bad. You basically need to do two things:
@@ -30,7 +28,7 @@ Then start it, and set it to start on boot.
 
 ## Install Discourse
 
-Follow the install instructions (start from here: http://learndiscourse.org/install-cloud#install-discourse). When you come to edit app.yml, under "## which TCP/IP ports should this container expose?" you want:
+Follow the install instructions (start from here: https://github.com/discourse/discourse/blob/master/docs/INSTALL-cloud.md#install-discourse). When you come to edit app.yml, under "## which TCP/IP ports should this container expose?" you want:
 
 `"8888:80"   # fwd host port 8888   to container port 80 (http)`
 
@@ -125,3 +123,5 @@ Set HAProxy to start to start on boot, start it, and then restart Apache to pick
 
 *Thanks to @macsmith71 for his help with HAProxy :)*
 *If I've missed anything out please let me know, it's way past my bed time* :stuck_out_tongue:
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-set-up-discourse-on-a-server-with-existing-apache-sites/30013](https://meta.discourse.org/t/how-to-set-up-discourse-on-a-server-with-existing-apache-sites/30013)</small>

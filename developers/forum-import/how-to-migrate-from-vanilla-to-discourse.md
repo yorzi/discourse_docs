@@ -3,8 +3,6 @@ title: How to migrate from Vanilla to Discourse!
 weight: 360
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-migrate-from-vanilla-to-discourse/27273](https://meta.discourse.org/t/how-to-migrate-from-vanilla-to-discourse/27273)</small>
-
 
 I know there are a lot of posts about importing contents from a vanilla forum, but theres a lack of **comprehensive guide**!
 
@@ -93,3 +91,5 @@ If you spot a mistake or wish to suggest an improvement to this course do let me
 
 
 [1]: http://vanillaforums.org/addon/porter-core
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/how-to-migrate-from-vanilla-to-discourse/27273](https://meta.discourse.org/t/how-to-migrate-from-vanilla-to-discourse/27273)</small>

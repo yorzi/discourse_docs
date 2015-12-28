@@ -2,8 +2,6 @@
 title: Discourse Developer Testing Guide
 ---
 
-<small class="documentation-source">Source: [https://github.com/discourse/discourse/blob/master/docs/TESTING.md](https://github.com/discourse/discourse/blob/master/docs/TESTING.md)</small>
-
 Some notes about testing Discourse:
 
 ## FakeWeb
@@ -49,3 +47,5 @@ to test emails. It's super convenient!
 
 > MailCatcher runs a super simple SMTP server which catches any message sent to it to display in a web interface. Run mailcatcher, set your favourite app to deliver to smtp://127.0.0.1:1025 instead of your default SMTP server, then check out http://127.0.0.1:1080 to see the mail that's arrived so far.
 
+
+<small class="documentation-source">Source: [https://github.com/discourse/discourse/blob/master/docs/TESTING.md](https://github.com/discourse/discourse/blob/master/docs/TESTING.md)</small>

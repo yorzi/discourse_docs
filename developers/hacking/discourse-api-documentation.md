@@ -3,8 +3,6 @@ title: Discourse API Documentation
 weight: 380
 ---
 
-<small class="documentation-source">Source: [https://meta.discourse.org/t/discourse-api-documentation/22706](https://meta.discourse.org/t/discourse-api-documentation/22706)</small>
-
 # Discourse API
 
 ## Overview
@@ -23,7 +21,7 @@ https://meta.discourse.org/t/improving-discourse-api/9276/5
 
 You can consume the API using cURL commands, but we recommend using the [discourse_api][2] gem so that you can use Ruby.
 
-http://learndiscourse.org/using-the-discourse-api-ruby-gem
+https://meta.discourse.org/t/using-the-discourse-api-ruby-gem/17587
 
 ## Authentication
 
@@ -347,9 +345,11 @@ The `filter` parameter takes a comma-separated list of integers to specify what 
 
 **Parameters**
 
-* search
+* q
 * order
 * ascending
+
+where `q` is search query.
 
 Values for the `order` parameter (there may be others, see below):
 
@@ -360,15 +360,13 @@ Values for the `order` parameter (there may be others, see below):
 
 **Examples**
 
-    curl -X GET -d search="new quotes category" http://localhost:3000/search.json
+    curl -X GET -d q="new quotes category" http://localhost:3000/search.json
 
 Search for `foo bar` and return results sorted by number of replies from least to most:
 
-    curl -X GET -d search="foo bar" -d order="posts" -d "ascending=true" http://localhost:3000/search.json
+    curl -X GET -d q="foo bar" -d order="posts" -d "ascending=true" http://localhost:3000/search.json
 
 Parameters, and values for these parameters, can be determined from the Discourse search page: https://meta.discourse.org/search.
-
-But take note of this comment: http://learndiscourse.org/discourse-api-documentation. `search` will be replaced with `q`.
 
   [2]: https://github.com/discourse/discourse_api
 
@@ -421,3 +419,5 @@ Here are the parameters you can set:
  - primary_group: false
  - title: "TITLE"
  - visible: true
+
+<small class="documentation-source">Source: [https://meta.discourse.org/t/discourse-api-documentation/22706](https://meta.discourse.org/t/discourse-api-documentation/22706)</small>
